@@ -1,0 +1,113 @@
+.Footer {
+    background: hsl(260, 8%, 14%);
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.MainHeading {
+    color: white;
+    width:25%;
+    font-size: 32px;
+}
+
+.FooterContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 40px;
+    width: 25%;
+    align-items: center;
+}
+
+.RowSection {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.ItemLink {
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.ItemLink:hover {
+    color: hsl(180, 66%, 49%);
+    text-decoration: none;
+}
+
+.FooterItem {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.socialColumns {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 8px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.socialItemLink {
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.socialItemLink:hover {
+    color: hsl(180, 66%, 49%);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .RowSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columns {
+        width: 100%;
+        align-items:center;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .socialColumns {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .MainHeading {
+        padding: 10px 0;
+        width:100%;
+        text-align:center;
+    }
+
+    .socialItemLink {
+        padding: 0 4px;
+    }
+}
