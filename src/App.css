@@ -1,3 +1,8 @@
+
+body {
+  margin-top: 80px;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +31,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
