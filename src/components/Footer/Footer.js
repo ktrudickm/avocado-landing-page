@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import { FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
   
 const Footer = () => {
   return (
@@ -16,6 +16,9 @@ const Footer = () => {
                 </a>
                 <a className='socialItemLink' href="#">
                     <FaInstagram />
+                </a>
+                <a className='socialItemLink' href="https://www.linkedin.com/company/avocado-financial/mycompany/">
+                    <FaLinkedin />
                 </a>
             </div>
           </div>

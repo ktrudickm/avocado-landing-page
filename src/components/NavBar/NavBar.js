@@ -26,7 +26,7 @@ const NavBar = ({ toggle }) => {
                             <NavLinks to='about' smooth={true} offset={-40} duration={1000}>About us</NavLinks>
                         </NavItem>
                         <NavBtn>
-                            <NavBtnLink href='http://eepurl.com/hHIAf9' target="_blank">Download the App</NavBtnLink>
+                            <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>

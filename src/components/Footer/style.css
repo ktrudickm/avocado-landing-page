@@ -49,7 +49,7 @@
 }
 
 .ItemLink:hover {
-    color: hsl(180, 66%, 49%);
+    color: #01bf71;
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .socialItemLink:hover {
-    color: hsl(180, 66%, 49%);
+    color: #01bf71;
     text-decoration: none;
 }
 

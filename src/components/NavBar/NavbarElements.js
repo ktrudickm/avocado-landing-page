@@ -48,10 +48,10 @@ export const MobileIcon = styled.div`
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-110%, 70%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #fff;
+        color: black;
     }
 `
 
