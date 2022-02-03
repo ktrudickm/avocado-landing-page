@@ -11,10 +11,10 @@ const Footer = () => {
           </h1>
           <div className='columns'>
               <div className='socialColumns'>
-                <a className='socialItemLink' href="#">
+                <a className='socialItemLink' href="https://twitter.com/avocado_invest_">
                     <FaTwitter />
                 </a>
-                <a className='socialItemLink' href="#">
+                <a className='socialItemLink' href="https://www.instagram.com/avocado_technologies/">
                     <FaInstagram />
                 </a>
                 <a className='socialItemLink' href="https://www.linkedin.com/company/avocado-financial/mycompany/">

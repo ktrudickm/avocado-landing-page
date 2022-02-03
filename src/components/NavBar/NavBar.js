@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
+import avocado from '../../images/avocado.png'
 import { 
     Nav,
     NavbarContainer,

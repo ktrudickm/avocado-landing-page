@@ -1,5 +1,5 @@
 .Footer {
-    background: hsl(260, 8%, 14%);
+    background: #fff;
     position:relative;
     bottom: 0;
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .MainHeading {
-    color: white;
+    color: black;
     width:25%;
     font-size: 32px;
 }
@@ -42,7 +42,7 @@
 }
 
 .ItemLink {
-    color: hsl(0, 0%, 75%);
+    color: #5524c9;
     margin-bottom: 10px;
     font-size: 12px;
     text-decoration: none;
@@ -55,7 +55,7 @@
 
 .FooterItem {
     font-size: 18px;
-    color: #fff;
+    color: #5524c9;
     margin-bottom: 14px;
     margin-top: 10px;
     font-weight: bold;
@@ -71,7 +71,7 @@
 }
 
 .socialItemLink {
-    color: hsl(0, 0%, 75%);
+    color: #5524c9;
     margin-bottom: 20px;
     font-size: 20px;
     text-decoration: none;
