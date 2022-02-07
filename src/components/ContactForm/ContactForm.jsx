@@ -1,5 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import TextField from '@mui/material/TextField';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import './style.css';
 
 const ContactForm = () => {
     const form = React.useRef();
@@ -20,21 +24,24 @@ const ContactForm = () => {
 
 
     return (
-        <form className={'form-container'} ref={form} onSubmit={sendEmail}>
-            <label>Subject</label>
-            <input type="text" name="subject" />
-
-            <label>Name</label>
-            <input type="text" name="name" />
-
-            <label>Email</label>
-            <input type="email" name="email" />
-
-            <label>Message</label>
-            <textarea name="message" />
-
-            <input type="submit" value="Send" />
-        </form>
+        <Box
+            className="form"
+            component="form"
+            sx={{
+            '& .MuiTextField-root': { m: 1, width: '60ch' },
+            }}
+            noValidate
+            autoComplete="off"
+            ref={form} 
+            onSubmit={sendEmail}
+        >
+            <h1 className="contact-title">Send us a message</h1>
+            <TextField label="Subject" name="subject" />
+            <TextField label="Name" name="name" />
+            <TextField type="email" label="Email" name="email" />
+            <TextField label="Message" name="message" multiline rows={5}/>
+            <Button className="submit" variant='contained' size="large" value="send">Submit</Button>
+        </Box>
     )
 
 }

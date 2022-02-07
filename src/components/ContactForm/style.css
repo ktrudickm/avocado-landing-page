@@ -1,0 +1,21 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    max-width: 100%;
+    width: 50%;
+}
+
+.contact-title {
+    padding: 10px 0px;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 45ch;
+}
