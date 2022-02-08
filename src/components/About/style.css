@@ -1,0 +1,22 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20%;
+    height: 40vh
+}
+
+.about-title {
+    font-size: 56px;
+}
+
+.about-description {
+    font-size: 24px;
+    font-weight: lighter;
+    max-width: 600px;
+}
+
+.about-description div {
+    padding: 10px 0px;
+}

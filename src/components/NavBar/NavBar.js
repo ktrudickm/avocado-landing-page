@@ -24,7 +24,10 @@ const NavBar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>About us</NavLinks>
+                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>About Us</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='contact' smooth={true} offset={-40} duration={1000}>Contact Us</NavLinks>
                         </NavItem>
                         <NavBtn>
                             <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
