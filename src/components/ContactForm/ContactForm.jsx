@@ -24,24 +24,26 @@ const ContactForm = () => {
 
 
     return (
-        <Box
-            className="form"
-            component="form"
-            sx={{
-            '& .MuiTextField-root': { m: 1, width: '60ch' },
-            }}
-            noValidate
-            autoComplete="off"
-            ref={form} 
-            onSubmit={sendEmail}
-        >
-            <h1 className="contact-title">Send us a message</h1>
-            <TextField label="Subject" name="subject" />
-            <TextField label="Name" name="name" />
-            <TextField type="email" label="Email" name="email" />
-            <TextField label="Message" name="message" multiline rows={5}/>
-            <a className="submitBtn" variant='contained' size="large" value="send">Submit</a>
-        </Box>
+        <div className='formContainer'>
+            <Box
+                className="form"
+                component="form"
+                sx={{
+                '& .MuiTextField-root': { m: 1, width: '60ch' },
+                }}
+                noValidate
+                autoComplete="off"
+                ref={form} 
+                onSubmit={sendEmail}
+            >
+                <h1 className="contact-title">Send us a message</h1>
+                <TextField className='textField' label="Subject" name="subject" />
+                <TextField className='textField' label="Name" name="name" />
+                <TextField className='textField' type="email" label="Email" name="email" />
+                <TextField className='textField' label="Message" name="message" multiline rows={5}/>
+                <a className="submitBtn" variant='contained' size="large" value="send">Submit</a>
+            </Box>
+        </div>
     )
 
 }

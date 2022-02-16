@@ -38,3 +38,18 @@
     background: #5524c967;
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px){
+
+    .formContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .textField {
+        width: 70%;
+    }
+}
