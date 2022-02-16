@@ -40,7 +40,7 @@ const ContactForm = () => {
             <TextField label="Name" name="name" />
             <TextField type="email" label="Email" name="email" />
             <TextField label="Message" name="message" multiline rows={5}/>
-            <Button className="submit" variant='contained' size="large" value="send">Submit</Button>
+            <a className="submitBtn" variant='contained' size="large" value="send">Submit</a>
         </Box>
     )
 

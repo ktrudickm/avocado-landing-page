@@ -117,6 +117,5 @@ export const NavBtnLink = styled.a`
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
-        font-weight: bold;
     }
 `

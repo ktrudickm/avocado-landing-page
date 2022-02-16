@@ -16,7 +16,25 @@
     padding: 10px 0px;
 }
 
-.submit {
+.submitBtn {
     margin-top: 10px;
-    width: 45ch;
+    width: 25ch;
+    border-radius: 50px;
+    background: #5524c9;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+
+.submitBtn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #5524c967;
+    color: #ffffff;
 }

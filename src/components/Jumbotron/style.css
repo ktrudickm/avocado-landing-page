@@ -3,18 +3,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: auto;
     gap: 50px;
     background: url("https://arexotics.com/wp-content/uploads/2019/10/header-background.jpg") no-repeat;
     background-size: cover;  
+    text-align: center;
+    padding: 70px 0px;
 }
 
 .title {
     font-size: 56px;
+    width:80%;
 }
 
 .description {
     font-size: 24px;
     font-weight: 300;
+    padding: 10px 50px;
+    width: 60%;
+}
+
+.JumboBtn {
+    border-radius: 50px;
+    background: #5524c9;
+    white-space: nowrap;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+}
+
+.JumboBtn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #5524c941;
+    color: #ffffff;
 }
 
