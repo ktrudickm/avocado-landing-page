@@ -1,0 +1,15 @@
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+    margin-top: 2.5%;
+    height: 25vh;
+    background: url("https://arexotics.com/wp-content/uploads/2019/10/header-background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.newsletter-title {
+    font-size: 56px;
+}

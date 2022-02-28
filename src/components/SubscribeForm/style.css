@@ -1,0 +1,29 @@
+.subscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscribeBtn {
+    width: 20ch;
+    border-radius: 50px;
+    background: #5524c9;
+    white-space: nowrap;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    padding: 15px;
+}
+
+.subscribeBtn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #5524c967;
+    color: #ffffff;
+}

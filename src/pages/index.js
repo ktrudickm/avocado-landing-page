@@ -5,6 +5,7 @@ import Jumbotron from '../components/Jumbotron/Jumbotron';
 import NavBar from '../components/NavBar/NavBar';
 import Carousel from '../components/Carousel/Carousel';
 import About from '../components/About/About';
+import Newsletter from '../components/Newsletter/Newsletter';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
           <Carousel/>
           <About/>
           <ContactForm/>
+          <Newsletter/>
           <Footer/>  
         </>
     )
