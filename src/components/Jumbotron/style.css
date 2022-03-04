@@ -47,8 +47,18 @@
 @media screen and (max-width: 768px){
 
     .description {
-        width: 80%;
+        width: 90%;
         padding: 10px 35px;
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 42px;
+        width: 85%;
+    }
+
+    .jumbotron {
+        height: 95vh;
     }
 
 

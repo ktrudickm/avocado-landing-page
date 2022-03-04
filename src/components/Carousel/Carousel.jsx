@@ -16,7 +16,7 @@ const Carousel = () => {
     return (
         <div className="carousel-container">
             <ReactCarousel
-                width="20vw"
+                // width="40vw"
                 className="carousel"
                 showThumbs={false}
                 onChange={(currentIndex) => setCurrentIndex(currentIndex)}

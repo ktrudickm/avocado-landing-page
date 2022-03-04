@@ -19,11 +19,24 @@
     text-decoration: none;
     text-align: center;
     height: 100%;
-    padding: 15px;
+    padding: 10px 22px;
 }
 
 .subscribeBtn:hover {
     transition: all 0.2s ease-in-out;
     background: #5524c967;
     color: #ffffff;
+}
+
+@media screen and (max-width: 960px){
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subscribeBtn {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 100%;    
+    }
 }

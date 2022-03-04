@@ -26,7 +26,7 @@ const ContactForm = () => {
                 className="form"
                 component="form"
                 sx={{
-                '& .MuiTextField-root': { m: 1, width: '60ch' },
+                '& .MuiTextField-root': { m: 1},
                 }}
                 noValidate
                 autoComplete="off"

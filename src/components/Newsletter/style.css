@@ -5,11 +5,29 @@
     flex-direction: column;
     gap: 10%;
     margin-top: 2.5%;
-    height: 25vh;
+    padding: 70px 0px;
+    height: auto;
     background: url("https://arexotics.com/wp-content/uploads/2019/10/header-background.jpg") no-repeat;
     background-size: cover;
 }
 
 .newsletter-title {
-    font-size: 56px;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 960px){
+
+
+    .newsletter-title {
+        font-size: 30px;
+        padding: 40px 50px;
+    }
+
+    .newsletter-container {
+        padding: 200px 0px;
+    
+    }
+
+
 }

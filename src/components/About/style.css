@@ -1,7 +1,7 @@
 .about-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     gap: 10%;
     height: auto;
@@ -10,6 +10,7 @@
 
 .about-title {
     font-size: 56px;
+    text-align: center;
 }
 
 .about-description {
@@ -22,7 +23,7 @@
     padding: 10px 0px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
 
     .about-container {
         display: flex;
