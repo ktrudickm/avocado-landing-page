@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar/NavBar';
 import Carousel from '../components/Carousel/Carousel';
 import About from '../components/About/About';
 import Newsletter from '../components/Newsletter/Newsletter';
+import Team from '../components/Team/Team';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
           <Jumbotron/>
           <Carousel/>
           <About/>
+          <Team/>
           <ContactForm/>
           <Newsletter/>
           <Footer/>  

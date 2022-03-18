@@ -1,0 +1,29 @@
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: auto;
+    margin: 100px 50px;
+}
+
+.team-title {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.member-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 40px;
+}
+
+.member-grid img {
+    width: 100% !important;
+}
+
+.snackbar { 
+    max-width: 50% !important;
+}
