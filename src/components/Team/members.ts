@@ -10,7 +10,7 @@ export const MEMBERS: Member[] = [
     {
         name: "Dawson Rickets",
         position: "CFO",
-        description: "I came to Phoenix to get an M.S. Finance degree from Arizona State University. I began my career in valuation consulting for private companies in Arizona. More recently I worked for Harvest Health and Recreation executing acquisition strategy and financial planning, as well as advising on the merger with with Trulieve Cannabis Corp which is the largest transaction in the US Cannabis Industry to date. I enjoy getting active when I am out of the office, including playing basketball, golfing, hiking, and mountain bike riding. I am also the proud father of two Aussie rescues, and the co-host of @m0neym0nday.",
+        description: "Dawson moved to Phoenix to get an M.S. Finance degree from Arizona State University. he began his career in valuation consulting for private companies in Arizona. More recently he has worked for Harvest Health and Recreation executing acquisition strategy and financial planning, as well as advising on the merger with with Trulieve Cannabis Corp which is the largest transaction in the US Cannabis Industry to date. He enjoys getting active when he is out of the office, including playing basketball, golfing, hiking, and mountain bike riding. He is also the proud father of two Aussie rescues, and the co-host of @m0neym0nday.",
         location: "Phoenix, AZ",
         imgSrc: "assets/dawson.jpg"
     },

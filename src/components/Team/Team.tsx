@@ -14,7 +14,6 @@ const Team = () => {
     const [open, setOpen] = React.useState(false);
     const [activeMember, setActiveMember] = React.useState<Member>(null);
 
-
     return (
         <div className="team-container">
             <h1 className="team-title">Our Team</h1>
@@ -47,19 +46,23 @@ const Team = () => {
                 className="snackbar"
                 open={open}
                 anchorOrigin={{vertical: 'bottom', horizontal: 'right'}}
-                onClose={() => setOpen(false)}
-                message={activeMember.description}
-                action={<React.Fragment>
-                    <IconButton
-                      size="small"
-                      aria-label="close"
-                      color="inherit"
-                      onClick={() => setOpen(false)}
-                    >
-                      <CloseIcon fontSize="small" />
-                    </IconButton>
-                  </React.Fragment>}
-            />}
+                onClose={(e, r) => r !== "clickaway" && setOpen(false)}
+            >
+                <div className="snackbar-content">
+                    <div>{activeMember.description}</div>
+                    <div className="close-button-container">
+                        <IconButton
+                            className="close-button"
+                            size="medium"
+                            aria-label="close"
+                            color="inherit"
+                            onClick={() => setOpen(false)}
+                        >
+                            <CloseIcon fontSize="medium" />
+                        </IconButton>
+                    </div>
+                </div>
+            </Snackbar>}
         </div>
     )
 
