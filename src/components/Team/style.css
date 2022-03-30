@@ -27,10 +27,9 @@
 .snackbar { 
     padding: 20px;
     border-radius: 10px;
-    width: 35% !important;
+    width: 45% !important;
     background: #5524c9;
     color: white;
-    font-weight: bold
 }
 
 .snackbar-content {
@@ -46,4 +45,16 @@
 
 .close-button {
     padding-top: 0px !important;
+}
+
+
+@media screen and (max-width: 960px){
+    .snackbar { 
+        padding: 20px;
+        border-radius: 10px;
+        width: 90% !important;
+        background: #5524c9;
+        color: white;
+    }
+
 }

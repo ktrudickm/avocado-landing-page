@@ -1,0 +1,108 @@
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 40%;
+    height: auto;
+    margin: 100px 50px;
+    padding-bottom: 90px;
+}
+
+.mission-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    color: #5524c9;
+}
+
+.mission-description {
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 600px;
+}
+
+.mission-description div {
+    padding: 10px 0px;
+}
+
+.identity-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #5524c9;
+}
+.identity-description {
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 600px;
+}
+
+.identity-description div {
+    padding: 10px 0px;
+}
+
+.value-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    color: #5524c9;
+}
+.value-description {
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 600px;
+}
+
+.value-description ul {
+    padding: 7px 0px;
+    list-style-type: none;
+}
+
+.value-description li {
+    padding: 7px 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px){
+
+    .mission-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20%;
+    }
+
+    .mission-title {
+        font-size: 25px;
+        padding: 10px 0;
+        align-self: baseline;
+    }
+
+    .mission-description {
+        font-size: 18px;
+    }
+
+    .identity-title {
+        font-size: 25px;
+        padding: 10px 0;
+        align-self: baseline;
+    }
+
+    .identity-description {
+        font-size: 18px;
+    }
+
+    .value-title {
+        font-size: 25px;
+        padding: 10px 0;
+        align-self: baseline;
+    }
+
+    .value-description {
+        font-size: 18px;
+        align-self: baseline;
+    }
+}

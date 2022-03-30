@@ -16,7 +16,7 @@ const Team = () => {
 
     return (
         <div className="team-container">
-            <h1 className="team-title">Our Team</h1>
+            <h1 className="team-title">OUR TEAM</h1>
             <ImageList className="member-grid" sx={{overflowY: "unset"}}>
                 {MEMBERS.map((member) => (
                     <React.Fragment key={member.name}>

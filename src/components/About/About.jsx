@@ -9,7 +9,7 @@ const About = () => {
                 <div>We have strived to level the playing field between Wall Street and the retail investor and will always build with that intention. “We will always build with our users best in mind and with their help, can create a company that changes the way the world invests.” Kartik Raghuram, CEO </div>
             </div>
             
-            <h1 className='about-title'>About Us</h1>
+            <h1 className='about-title'>ABOUT US</h1>
         </div>
     )
 }

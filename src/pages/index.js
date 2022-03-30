@@ -7,6 +7,7 @@ import Carousel from '../components/Carousel/Carousel';
 import About from '../components/About/About';
 import Newsletter from '../components/Newsletter/Newsletter';
 import Team from '../components/Team/Team';
+import Mission from '../components/Mission/Mission'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
           <Jumbotron/>
           <Carousel/>
           <About/>
+          <Mission/>
           <Team/>
           <ContactForm/>
           <Newsletter/>
