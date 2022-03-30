@@ -15,7 +15,7 @@ const Team = () => {
     const [activeMember, setActiveMember] = React.useState<Member>(null);
 
     return (
-        <div className="team-container">
+        <div id='team' className="team-container">
             <h1 className="team-title">OUR TEAM</h1>
             <ImageList className="member-grid" sx={{overflowY: "unset"}}>
                 {MEMBERS.map((member) => (

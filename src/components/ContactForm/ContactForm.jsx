@@ -21,7 +21,7 @@ const ContactForm = () => {
 
 
     return (
-        <div className='formContainer'>
+        <div id='contact' className='formContainer'>
             <Box
                 className="form"
                 component="form"
