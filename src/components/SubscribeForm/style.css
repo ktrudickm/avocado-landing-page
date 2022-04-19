@@ -35,8 +35,7 @@
     }
 
     .subscribeBtn {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 100%;    
+        margin: 20px 0px;
+        width: 100%;
     }
 }

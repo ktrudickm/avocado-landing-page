@@ -19,8 +19,7 @@ const Home = () => {
           <Mission/>
           <Team/>
           <ContactForm/>
-          <Newsletter/>
-          <Footer/>  
+          <Footer/>
         </>
     )
 }

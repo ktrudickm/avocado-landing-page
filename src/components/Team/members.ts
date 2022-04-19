@@ -37,13 +37,6 @@ export const MEMBERS: Member[] = [
         imgSrc: "assets/john.png"
     },
     {
-        name: "Chris Elliot",
-        position: "Engineer",
-        description: "",
-        location: "Chicago, IL",
-        imgSrc: ""
-    },
-    {
         name: "Kendall Trudick",
         position: "Engineer",
         description: "Kendall is a Columbus, OH based Software Engineer from Cleveland, OH. She graduated from the Ohio State University in 2019 where she studied Chemical Engineering. Since then, she returned to school and earned her certification in Full-Stack Web Development from The Ohio State University. Kendall brings to Avocado an Engineering mindset, one that prioritizes continuous improvement, attention to detail, and purposeful problem-solving. Outside of work, Kendall has a passion for traveling, interior design & space curation, reading, music, staying active, and diving into any new learning opportunity.",
@@ -56,26 +49,5 @@ export const MEMBERS: Member[] = [
         description: "Sydney is a UX Designer based in Columbus, OH. She graduated from the Ohio State University in 2019 where she studied Human-Computer Interaction. Since then, she has worked on various projects designing interactive applications that are impactful and easy to use. Recently, she returned to school and is working towards earning an M.S. in User Experience Design from Kent State University. In her free time, Sydney enjoys traveling, live music, and staying active.",
         location: "Columbus, OH",
         imgSrc: "assets/sydney.jpeg"
-    },
-    {
-        name: "",
-        position: "",
-        description: "",
-        location: "",
-        imgSrc: ""
-    },
-    {
-        name: "",
-        position: "",
-        description: "",
-        location: "",
-        imgSrc: ""
-    },
-    {
-        name: "",
-        position: "",
-        description: "",
-        location: "",
-        imgSrc: ""
-    },
+    }
 ];

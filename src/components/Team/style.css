@@ -4,7 +4,8 @@
     justify-content: space-around;
     flex-direction: column;
     height: auto;
-    margin: 100px 50px;
+    padding: 35px 50px 60px 50px;
+    background: rgb(246, 246, 246);
 }
 
 .team-title {
@@ -28,8 +29,9 @@
     padding: 20px;
     border-radius: 10px;
     width: 45% !important;
-    background: #5524c9;
-    color: white;
+    background: rgb(246, 246, 246);
+    color: rgba(0, 0, 0, .75);
+    border: 1px rgba(0, 0, 0, .2) solid;
 }
 
 .snackbar-content {

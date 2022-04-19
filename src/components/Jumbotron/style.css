@@ -5,10 +5,17 @@
     justify-content: center;
     height: auto;
     gap: 50px;
-    background: url("https://arexotics.com/wp-content/uploads/2019/10/header-background.jpg") no-repeat;
-    background-size: cover;  
     text-align: center;
-    padding: 70px 0px;
+    flex-basis: 60%;
+}
+
+.jumbotron-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(246, 246, 246);
+    padding: 70px 7.5%;
 }
 
 .title {
@@ -44,7 +51,11 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
+    .jumbotron-container {
+        flex-direction: column;
+        padding: 5% 0px;
+    }
 
     .description {
         width: 90%;

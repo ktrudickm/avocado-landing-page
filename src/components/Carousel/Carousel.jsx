@@ -14,25 +14,27 @@ const Carousel = () => {
     }
 
     return (
-        <div className="carousel-container">
-            <ReactCarousel
-                // width="40vw"
-                className="carousel"
-                showThumbs={false}
-                onChange={(currentIndex) => setCurrentIndex(currentIndex)}
-                autoPlay
-                centerMode
-                infiniteLoop
-                showArrows
-            >
-                <img src="assets/avo.png"/>
-                <img src="assets/avo2.png"/>
-                <img src="assets/avo3.png"/>
-                <img src="assets/avo4.png"/>
-            </ReactCarousel>
+        <div className="root-container">
+            <div className="carousel-container">
+                <ReactCarousel
+                    // width="40vw"
+                    className="carousel"
+                    showThumbs={false}
+                    onChange={(currentIndex) => setCurrentIndex(currentIndex)}
+                    autoPlay
+                    centerMode
+                    infiniteLoop
+                    showArrows
+                >
+                    <img src="assets/avo.png"/>
+                    <img src="assets/avo2.png"/>
+                    <img src="assets/avo3.png"/>
+                    <img src="assets/avo4.png"/>
+                </ReactCarousel>
+            </div>
 
             <div className="image-caption">
-                <span>{captions[currentIndex]}</span>
+                <div>{captions[currentIndex]}</div>
             </div>
         </div>
     )

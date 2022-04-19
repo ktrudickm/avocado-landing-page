@@ -23,7 +23,7 @@ const SubscribeForm = () => {
 
 
     return (
-        <div className='formContainer'>
+        <div>
             <Box
                 className="subscribe"
                 component="form"

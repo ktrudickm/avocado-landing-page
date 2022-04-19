@@ -5,7 +5,8 @@
     flex-direction: row;
     gap: 10%;
     height: auto;
-    margin: 100px 50px;
+    padding: 100px 50px;
+    background: rgb(246, 246, 246);
 }
 
 .about-title {
@@ -30,12 +31,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
-        gap: 20%;
+        padding: 5% 10%;
     }
 
     .about-title {
         font-size: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 5%;
     }
 
     .about-description {
