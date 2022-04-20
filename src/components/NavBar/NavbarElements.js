@@ -12,6 +12,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -60,7 +61,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
 
     @media screen and (max-width: 768px) {
         display: none;

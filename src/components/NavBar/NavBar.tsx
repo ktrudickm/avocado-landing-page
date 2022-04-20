@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
-import avocado from '../../images/avocado.png'
-import { 
+import {
     Nav,
     NavbarContainer,
     NavLogo,
@@ -12,14 +11,19 @@ import {
     NavBtn,
     NavBtnLink
 } from './NavbarElements'
+import './style.css';
 
-const NavBar = ({ toggle }) => {
+const NavBar = () => {
+    const [open, setOpen] = React.useState(false);
+
+    const handleMobileNavOnClick = () => setOpen(false);
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='home' smooth={true} offset={-40} duration={1000}>Avocado</NavLogo>
-                    <MobileIcon onClick={toggle}>
+                    <MobileIcon onClick={() => setOpen(!open)}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
@@ -38,6 +42,24 @@ const NavBar = ({ toggle }) => {
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
+            {open &&
+                <div className="mobile-nav-container">
+                    <NavMenu className="mobile-nav-menu">
+                        <NavItem>
+                            <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>About Us</span></NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks onClick={handleMobileNavOnClick} to='team' smooth={true} offset={-80} duration={1000}><span>Our Team</span></NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks onClick={handleMobileNavOnClick} to='contact' smooth={true} offset={-80} duration={1000}><span>Contact Us</span></NavLinks>
+                        </NavItem>
+                        <NavBtn>
+                            <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
+                        </NavBtn>
+                    </NavMenu>
+                </div>
+            }
         </>
     )
 }
