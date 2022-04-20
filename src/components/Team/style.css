@@ -59,4 +59,13 @@
         color: white;
     }
 
+    .MuiImageListItem-root {
+        height: 350px !important;
+        width: 275px;
+    }
+
+    .team-title {
+        font-size: 40px;
+    }
+
 }
