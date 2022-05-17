@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4a1dcfd.css",
-    "main.js": "/static/js/main.13b1b286.js",
-    "static/media/avocado.png": "/static/media/avocado.742466adb7130d559024.png",
+    "main.css": "/static/css/main.faeb2d9d.css",
+    "main.js": "/static/js/main.655e6a8b.js",
     "index.html": "/index.html",
-    "main.a4a1dcfd.css.map": "/static/css/main.a4a1dcfd.css.map",
-    "main.13b1b286.js.map": "/static/js/main.13b1b286.js.map"
+    "main.faeb2d9d.css.map": "/static/css/main.faeb2d9d.css.map",
+    "main.655e6a8b.js.map": "/static/js/main.655e6a8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a1dcfd.css",
-    "static/js/main.13b1b286.js"
+    "static/css/main.faeb2d9d.css",
+    "static/js/main.655e6a8b.js"
   ]
 }
