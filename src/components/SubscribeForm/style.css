@@ -20,6 +20,7 @@
     text-align: center;
     height: 100%;
     padding: 10px 22px;
+    margin-top: 20px;
 }
 
 .subscribeBtn:hover {
@@ -28,7 +29,14 @@
     color: #ffffff;
 }
 
+.formContainer {
+    width: 40%;
+}
+
 @media screen and (max-width: 960px){
+    .formContainer {
+        width: 100%;
+    }
 
     .subscribe {
         flex-direction: column;

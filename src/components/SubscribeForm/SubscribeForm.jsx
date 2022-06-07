@@ -23,19 +23,23 @@ const SubscribeForm = () => {
 
 
     return (
-        <div>
+        <div className="formContainer">
             <Box
                 className="subscribe"
                 component="form"
                 sx={{
-                '& .MuiTextField-root': { m: 1, width: '100%' },
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 1,
+                    '& .MuiTextField-root': { m: 1, width: '100%' },
                 }}
                 noValidate
                 autoComplete="off"
                 ref={form} 
                 onSubmit={subscribe}
             >
-                <TextField className='textField' type="email" label="Your Email" name="subscriber" />
+                <TextField className='textField' type="email" label="Email Address" name="subscriber" />
+                <TextField className='textField' type="text" label="Ethereum Address" name="ethereumAddress" />
                 <button className="subscribeBtn" value="send">Subscribe</button>
             </Box>
         </div>
