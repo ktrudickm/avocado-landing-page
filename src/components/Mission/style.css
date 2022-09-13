@@ -1,14 +1,14 @@
 .container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     height: auto;
     padding: 50px 50px;
 }
 
 .mission-container {
-    flex-basis: 33%;
+    flex-basis: 28%;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -16,46 +16,48 @@
 }
 
 .mission-title {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0;
     color: #5524c9;
 }
 
 .mission-description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     max-width: 600px;
 }
 
 .mission-description div {
     padding: 10px 0px;
+    text-align: center;
 }
 
 .identity-title {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0px;
     color: #5524c9;
 }
 .identity-description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     max-width: 600px;
 }
 
 .identity-description div {
     padding: 10px 0px;
+    text-align: center;
 }
 
 .value-title {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0;
     color: #5524c9;
 }
 .value-description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     max-width: 600px;
 }

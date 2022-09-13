@@ -25,8 +25,14 @@ const ContactForm = () => {
             <Box
                 className="form"
                 component="form"
+                // sx={{
+                // '& .MuiTextField-root': { m: 1},
+                // }}
                 sx={{
-                '& .MuiTextField-root': { m: 1},
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 1,
+                    '& .MuiTextField-root': { m: 1, width: '100%' },
                 }}
                 noValidate
                 autoComplete="off"
@@ -34,10 +40,10 @@ const ContactForm = () => {
                 onSubmit={sendEmail}
             >
                 <h1 className="contact-title">Send us a message</h1>
-                <TextField className='textField' label="Subject" name="subject" />
-                <TextField className='textField' label="Name" name="name" />
+                <TextField className='textField' type='text' label="Subject" name="subject" />
+                <TextField className='textField' type='text' label="Name" name="name" />
                 <TextField className='textField' type="email" label="Email" name="email" />
-                <TextField className='textField' label="Message" name="message" multiline rows={5}/>
+                <TextField className='textField' type='text' label="Message" name="message" />
                 <button className="submitBtn" variant='contained' size="large" value="send">Submit</button>
             </Box>
         </div>

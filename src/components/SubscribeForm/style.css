@@ -23,6 +23,10 @@
     margin-top: 20px;
 }
 
+.textField {
+    width: 100px;
+}
+
 .subscribeBtn:hover {
     transition: all 0.2s ease-in-out;
     background: #5524c967;
@@ -30,7 +34,7 @@
 }
 
 .formContainer {
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
 }
 
