@@ -36,9 +36,9 @@ const NavBar = () => {
                         <NavItem>
                             <NavLinks to='contact' smooth={true} offset={-40} duration={1000}>Contact Us</NavLinks>
                         </NavItem>
-                        <NavBtn>
+                        {/* <NavBtn>
                             <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
@@ -54,9 +54,9 @@ const NavBar = () => {
                         <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='contact' smooth={true} offset={-80} duration={1000}><span>Contact Us</span></NavLinks>
                         </NavItem>
-                        <NavBtn>
+                        {/* <NavBtn>
                             <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavMenu>
                 </div>
             }

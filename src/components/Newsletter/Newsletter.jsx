@@ -5,7 +5,7 @@ import SubscribeForm from '../SubscribeForm/SubscribeForm';
 const Newsletter = () => {
     return (
         <div className="newsletter-container">
-            <h2 className='newsletter-title'>Join our newsletter</h2>
+            <h2 className='newsletter-title'>Sign up for the GuacBox newsletter below!</h2>
             <SubscribeForm/>
         </div>
     )
