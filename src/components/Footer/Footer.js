@@ -11,7 +11,7 @@ const Footer = () => {
           </h1>
           <div className='columns'>
               <div className='socialColumns'>
-                <a className='socialItemLink' href="https://twitter.com/avocado_invest_">
+                <a className='socialItemLink' href="https://twitter.com/avocadoapp_">
                     <FaTwitter />
                 </a>
                 <a className='socialItemLink' href="https://www.instagram.com/avocado_technologies/">
