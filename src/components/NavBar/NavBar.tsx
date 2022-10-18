@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
+import { ReactComponent as Logo } from './ICON.svg'
 import {
     Nav,
     NavbarContainer,
@@ -22,20 +23,24 @@ const NavBar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='home' smooth={true} offset={-40} duration={1000}>Avocado</NavLogo>
+                    {/* <NavLogo to='home' smooth={true} offset={-40} duration={1000}>Avocado</NavLogo> */}
+                    <Logo style={{ marginTop: 15}}/>
                     <MobileIcon onClick={() => setOpen(!open)}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>About Us</NavLinks>
+                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>Our Story</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>Our Product</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='team' smooth={true} offset={-40} duration={1000}>Our Team</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='contact' smooth={true} offset={-40} duration={1000}>Contact Us</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         {/* <NavBtn>
                             <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
                         </NavBtn> */}
@@ -46,14 +51,17 @@ const NavBar = () => {
                 <div className="mobile-nav-container">
                     <NavMenu className="mobile-nav-menu">
                         <NavItem>
-                            <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>About Us</span></NavLinks>
+                            <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>Our Story</span></NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>Our Product</span></NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='team' smooth={true} offset={-80} duration={1000}><span>Our Team</span></NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='contact' smooth={true} offset={-80} duration={1000}><span>Contact Us</span></NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         {/* <NavBtn>
                             <NavBtnLink href='https://apps.apple.com/us/app/avocado-social-investing/id1561473335' target="_blank">Download the App</NavBtnLink>
                         </NavBtn> */}
