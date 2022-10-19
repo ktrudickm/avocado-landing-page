@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
         transform: translate(-110%, 70%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: black;
+        color: white;
     }
 `
 
@@ -61,6 +61,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
+    gap: 40px;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -74,6 +75,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
     color: white;
     display: flex;
+    font-weight: 600;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
