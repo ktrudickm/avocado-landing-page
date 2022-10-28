@@ -1,15 +1,16 @@
 import React from "react";
 import './style.css';
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { ReactComponent as Logo } from './Full.svg'
   
 const Footer = () => {
   return (
     <div className='Footer'>
       <div className="FooterContainer">
         <div className='RowSection'>
-          <h1 className='MainHeading'>Avocado
-          </h1>
+          <Logo />
           <div className='columns'>
+              <div className='followText'>Follow Us</div>
               <div className='socialColumns'>
                 <a className='socialItemLink' href="https://twitter.com/avocadoapp_">
                     <FaTwitter />

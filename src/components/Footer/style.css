@@ -1,10 +1,10 @@
 .Footer {
-    background: #fff;
+    background: #000525;
     position:relative;
     bottom: 0;
     width: 100%;
     display: block;
-    padding: 50px 40px 20px;
+    padding: 30px 40px 30px;
     margin-top: 20px;
 }
 
@@ -25,9 +25,7 @@
 .columns {
     display: flex;
     flex-direction: column;
-    text-align: right;
-    width: 50%;
-    align-items: flex-end;
+    justify-content: flex-end;
     padding-right: 20px;
 }
 
@@ -38,7 +36,7 @@
 }
 
 .ItemLink {
-    color: #5524c9;
+    color: white;
     margin-bottom: 10px;
     font-size: 12px;
     text-decoration: none;
@@ -51,31 +49,32 @@
 
 .FooterItem {
     font-size: 18px;
-    color: #5524c9;
+    color: white;
     margin-bottom: 14px;
     margin-top: 10px;
     font-weight: bold;
 }
 
-.socialColumns {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 8px;
-    align-items: center;
-    text-align: left;
+.followText {
+    color: white;
+    font-size: 20px;
+}
 
+.socialColumns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .socialItemLink {
-    color: #5524c9;
-    margin-bottom: 20px;
-    font-size: 20px;
+    color: white;
+    font-size: 35px;
     text-decoration: none;
     margin-top: 10px;
 }
 
 .socialItemLink:hover {
-    color: #01bf71;
+    color: #13D74B;
     text-decoration: none;
 }
 
