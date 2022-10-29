@@ -7,8 +7,9 @@ import NavBar from '../components/NavBar/NavBar';
 import About from '../components/About/About';
 import Preview from '../components/Preview/Preview'
 import Newsletter from '../components/Newsletter/Newsletter';
-import Team from '../components/Team/Team';
+// import Team from '../components/Team/Team';
 import Mission from '../components/Mission/Mission'
+import OurTeam from '../components/OurTeam/ourTeam'
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
           <Preview/>
           <About/>
           <Mission/>
-          <Team/>
+          <OurTeam />
           {/* <ContactForm/> */}
           <Newsletter />
           <Footer/>

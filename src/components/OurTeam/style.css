@@ -1,0 +1,46 @@
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 40px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 30%;
+    text-align: center;
+    padding: 20px 20px;
+    padding-bottom: 40px;
+}
+
+.memberImg {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.memberName {
+    font-weight: 600;
+    padding-top: 14px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.memberTitle {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 14px;
+}
+
