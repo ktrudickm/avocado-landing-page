@@ -7,8 +7,8 @@
 
 .subscribeBtn {
     width: 20ch;
-    border-radius: 50px;
-    background: #5524c9;
+    border-radius: 4px;
+    background: #13D74B;
     white-space: nowrap;
     color: white;
     font-size: 16px;
@@ -33,10 +33,9 @@
     color: #ffffff;
 }
 
-.formContainer {
-    width: 70%;
-    margin: 0 auto;
-}
+/* .formContainer {
+    margin: 10px;
+} */
 
 @media screen and (max-width: 960px){
     .formContainer {

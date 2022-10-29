@@ -38,7 +38,7 @@ const SubscribeForm = () => {
                 ref={form} 
                 onSubmit={subscribe}
             >
-                <TextField className='textField' type="email" label="Email Address" name="subscriber" />
+                <TextField className='textField' type="email" label="Email Address *" name="subscriber" />
                 {/* <TextField className='textField' type="text" label="Ethereum Address" name="ethereumAddress" /> */}
                 <button className="subscribeBtn" value="send">Subscribe</button>
             </Box>
