@@ -9,7 +9,7 @@ import { FiCompass } from 'react-icons/fi'
 const Product = () => {
   return (
     <div>
-        <div className='product-container'>
+        <div id='product' className='product-container'>
             <h1 className='product-title'>Our Product</h1>
             <div className="prod-section-container">
                 <div className='item-container'>

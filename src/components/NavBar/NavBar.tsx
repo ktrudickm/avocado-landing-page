@@ -33,7 +33,7 @@ const NavBar = () => {
                             <NavLinks to='about' smooth={true} offset={-40} duration={1000}>Our Story</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} offset={-40} duration={1000}>Our Product</NavLinks>
+                            <NavLinks to='product' smooth={true} offset={-40} duration={1000}>Our Product</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='team' smooth={true} offset={-40} duration={1000}>Our Team</NavLinks>
@@ -54,7 +54,7 @@ const NavBar = () => {
                             <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>Our Story</span></NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>Our Product</span></NavLinks>
+                            <NavLinks onClick={handleMobileNavOnClick} to='product' smooth={true} offset={-80} duration={1000}><span>Our Product</span></NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='team' smooth={true} offset={-80} duration={1000}><span>Our Team</span></NavLinks>

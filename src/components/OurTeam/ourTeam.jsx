@@ -4,7 +4,7 @@ import {MEMBERS} from './members';
 
 const ourTeam = () => {
   return (
-    <div className='teamContainer'>
+    <div id='team' className='teamContainer'>
         <h1 className='titleText'>Our Team</h1>
         <div className='imgContainer'>
         {MEMBERS.map((member) => (
