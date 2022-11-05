@@ -46,3 +46,17 @@
     width: 62px;
     height: 61px;
 }
+
+@media screen and (max-width: 960px){
+
+    .prod-section-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .item-container {
+        width: 44%;
+        padding: 0px;
+        margin: 20px 10px;
+    }
+}

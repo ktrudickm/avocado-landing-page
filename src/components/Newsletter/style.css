@@ -40,7 +40,8 @@
     }
 
     .newsletter-container {
-
+        flex-basis: 90%;
+        padding-top: 0px;
     }
 
 
