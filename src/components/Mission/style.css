@@ -1,121 +1,35 @@
 .container {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     height: auto;
-    padding: 50px 50px;
-}
-
-.mission-container {
-    flex-basis: 28%;
-    flex-direction: column;
-    display: flex;
+    padding: 60px 50px;
     justify-content: center;
-    align-items: center;
-}
-
-.mission-title {
-    font-size: 30px;
-    text-align: center;
-    padding: 20px 0;
-    color: #5524c9;
-}
-
-.mission-description {
-    font-size: 18px;
-    font-weight: lighter;
-    max-width: 600px;
-}
-
-.mission-description div {
-    padding: 10px 0px;
-    text-align: center;
-}
-
-.identity-title {
-    font-size: 30px;
-    text-align: center;
-    padding: 20px 0px;
-    color: #5524c9;
-}
-.identity-description {
-    font-size: 18px;
-    font-weight: lighter;
-    max-width: 600px;
-}
-
-.identity-description div {
-    padding: 10px 0px;
-    text-align: center;
 }
 
 .value-title {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #000525;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.listItem {
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    color: #13D84B;
+    font-weight: 600;
     font-size: 30px;
-    text-align: center;
-    padding: 20px 0;
-    color: #5524c9;
-}
-.value-description {
-    font-size: 18px;
-    font-weight: lighter;
-    max-width: 600px;
-}
-
-.value-description ul {
-    padding: 7px 0px;
-    list-style-type: none;
-}
-
-.value-description li {
-    padding: 7px 0px;
-    list-style-type: none;
-    text-align: center;
-}
-
-@media screen and (max-width: 960px){
-    .container {
-        flex-direction: column;
-        padding: 5% 10%;
-    }
-
-    .mission-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 20%;
-        width: 100%;
-    }
-
-    .mission-title {
-        font-size: 25px;
-        padding: 10px 0;
-        align-self: center;
-    }
-
-    .mission-description {
-        font-size: 18px;
-    }
-
-    .identity-title {
-        font-size: 25px;
-        padding: 10px 0;
-        align-self: center;
-    }
-
-    .identity-description {
-        font-size: 18px;
-    }
-
-    .value-title {
-        font-size: 25px;
-        padding: 10px 0;
-        align-self: center;
-    }
-
-    .value-description {
-        font-size: 18px;
-        align-self: center;
-    }
+    line-height: 48px;
+    padding: 16px 0;
 }

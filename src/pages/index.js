@@ -10,6 +10,7 @@ import Newsletter from '../components/Newsletter/Newsletter';
 // import Team from '../components/Team/Team';
 import Mission from '../components/Mission/Mission'
 import OurTeam from '../components/OurTeam/ourTeam'
+import Product from '../components/Product/Product'
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
           <Preview/>
           <About/>
           <Mission/>
+          <Product />
           <OurTeam />
           {/* <ContactForm/> */}
           <Newsletter />

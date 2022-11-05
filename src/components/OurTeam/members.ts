@@ -22,6 +22,13 @@ export const MEMBERS: Member[] = [
         imgSrc: "assets/DR.jpg"
     },
     {
+        name: "Diego Guerrero",
+        position: "CCO",
+        description: "Kartik, Avocado's Founder and CEO, is a marketing and entrepreneurship graduate from the University of Akron. He began his career working at Square Inc. (now Block). This experience tought him how to build and think creatively through working on the product side and helping build out new and enticing features on existing platforms, a skill that has been applied here at Avocado. Kartik is also the founder of The Business Essential Podcast, a platform where business leaders and entrepreneurs can share their insights and stories.",
+        location: "Cleveland, OH",
+        imgSrc: "assets/DG.jpg"
+    },
+    {
         name: "Evan Karnoukapis",
         position: "Senior Advisor",
         description: "Evan Karnoupakis is a blockchain consultant, author, and thought leader. A featured speaker, panelist, and judge at leading universities, blockchain conferences, and events, he has provided blockchain education and consulting services to governments, businesses, and academic institutions worldwide. A regular contributor to the investor publication Bitcoin Market Journal, he has co-authored the book \"Blockchain Success Stories: Case Studies from the Leading Edge of Business\" (O'Reilly Media, Inc. 2021) as well as two industry leading reports: \"What is Blockchain\" (O'Reilly 2019) and \"State of Blockchain\" (O'Reilly 2019)." + 
@@ -49,12 +56,5 @@ export const MEMBERS: Member[] = [
         description: "Sydney is a UX Designer based in Columbus, OH. She graduated from the Ohio State University in 2019 where she studied Human-Computer Interaction. Since then, she has worked on various projects designing interactive applications that are impactful and easy to use. Recently, she returned to school and is working towards earning an M.S. in User Experience Design from Kent State University. In her free time, Sydney enjoys traveling, live music, and staying active.",
         location: "Columbus, OH",
         imgSrc: "assets/ST.jpg"
-    },
-    {
-        name: "Diego Guerrero",
-        position: "CCO",
-        description: "Kartik, Avocado's Founder and CEO, is a marketing and entrepreneurship graduate from the University of Akron. He began his career working at Square Inc. (now Block). This experience tought him how to build and think creatively through working on the product side and helping build out new and enticing features on existing platforms, a skill that has been applied here at Avocado. Kartik is also the founder of The Business Essential Podcast, a platform where business leaders and entrepreneurs can share their insights and stories.",
-        location: "Cleveland, OH",
-        imgSrc: "assets/DG.jpg"
     },
 ];
