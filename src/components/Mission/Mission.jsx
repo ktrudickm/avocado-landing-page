@@ -11,9 +11,7 @@ const About = () => {
                     <p className='listItem'>Collaboration</p>
                     <p className='listItem'>Perserverance</p>
                     <p className='listItem'>Innovation</p>
-                    <p className='listItem'>Continuous Learning</p>
                     <p className='listItem'>Empowerment</p>
-                    <p className='listItem'>Financial Freedom</p>
                 </div>
         </div>
     )
