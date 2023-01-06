@@ -19,19 +19,19 @@ const Preview = () => {
                 <img className="img3" src={require('../../images/iphone-explore.png')} alt="iphone-explore"/>
             </div>
             <div className="text-container">
-                <h1 className="main-text">A New Generation of Investing</h1>
+                <h1 className="main-text">Social Investing, Reimagined.</h1>
                 <div className="detail-container">
                     <div className="detail">
-                        <h1>2020</h1>
-                        <h2>Founded</h2>
+                        <h1>Q1 '23</h1>
+                        <h2>Beta Launch</h2>
                     </div>
                     <div className="detail">
-                        <h1>12</h1>
+                        <h1>13</h1>
                         <h2>Employees</h2>
                     </div>
                     <div className="detail">
-                        <h1>400+</h1>
-                        <h2>Users</h2>
+                        <h1>300+</h1>
+                        <h2>Waitlist</h2>
                     </div>
                 </div>
             </div>

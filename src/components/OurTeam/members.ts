@@ -38,7 +38,7 @@ export const MEMBERS: Member[] = [
     },
     {
         name: "John Zuccaro",
-        position: "Crypto Lead",
+        position: "Head of Web3 Strategy",
         description: "Hailing from Northeast Ohio, ever since John was about 10 years old, he's had a fascination with technology, finance, and investing. With these foundational interests, he decided to study Information Systems and Supply Chain Management at Miami University's Farmer School of Business, and graduated with Cum Laude honors. John brings to Avocado 4 years of research experience and fundamental analysis of the blockchain space, in addition to his strategic acumen, actionable foresight, and a passionate drive to positively impact humanity. He currently lives outside of Denver, Colorado and enjoys exhilarating activities in the great outdoors, watching and playing a variety of athletics, eating authentic cuisines and traveling the world.",
         location: "Cleveland, OH",
         imgSrc: "assets/JZ.png"

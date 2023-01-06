@@ -10,7 +10,7 @@ const Product = () => {
   return (
     <div>
         <div id='product' className='product-container'>
-            <h1 className='product-title'>Our Product</h1>
+            <h1 className='product-title'>Your App</h1>
             <div className="prod-section-container">
                 <div className='item-container'>
                     <FaPlusSquare className='icon'/>

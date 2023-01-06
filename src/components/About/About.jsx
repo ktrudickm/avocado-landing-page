@@ -10,7 +10,7 @@ const About = () => {
                     <FaQuoteLeft className='quote'/>
                     <h2>We will always build with our users best interests in mind, and with their help, we can create a company that changes the way the world invests.</h2>
                     <FaQuoteRight className='quote'/>
-                    <p>-Kartik Raghuram, CEO</p>
+                    <p>Kartik Raghuram, CEO</p>
                 </div>
             </div>
             <div className='about-description'>
