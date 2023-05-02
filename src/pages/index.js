@@ -4,7 +4,6 @@ import Jumbotron from '../components/Jumbotron/Jumbotron';
 import NavBar from '../components/NavBar/NavBar';
 import About from '../components/About/About';
 import Preview from '../components/Preview/Preview'
-import Newsletter from '../components/Newsletter/Newsletter';
 import Mission from '../components/Mission/Mission'
 import OurTeam from '../components/OurTeam/ourTeam'
 import Product from '../components/Product/Product'
@@ -18,10 +17,9 @@ const Home = () => {
           <Preview/>
           <About/>
           <Mission/>
-          <Product />
-          <OurTeam />
-          <Newsletter />
-          <Waitlist />
+          <Product/>
+          <OurTeam/>
+          <Waitlist/>
           <Footer/>
         </>
     )

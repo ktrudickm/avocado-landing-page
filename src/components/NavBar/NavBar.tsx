@@ -38,6 +38,9 @@ const NavBar = () => {
                         <NavItem>
                             <NavLinks to='team' smooth={true} offset={-40} duration={1000}>Our Team</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to='waitlist' smooth={true} offset={-40} duration={1000}>Waitlist</NavLinks>
+                        </NavItem>
                         {/* <NavItem>
                             <NavLinks to='contact' smooth={true} offset={-40} duration={1000}>Contact Us</NavLinks>
                         </NavItem> */}

@@ -6,10 +6,10 @@ import clsx from "clsx";
 
 const Waitlist = () => {
     return (
-        <div className='full-container'>
+        <div id="waitlist" className='full-container'>
             <div className="waitlist-container">
                 <div className='subtitle-container'>
-                    <h2 className='waitlist-title'>Join Our Pre-Launch Wait List!</h2>
+                    <h2 className='waitlist-title'>Join Our Pre-Launch Waitlist!</h2>
                     <p className='waitlist-detail'>Get notified as soon as the Avocado Investing app is live in the app store.</p>
                 </div>
                 <>
