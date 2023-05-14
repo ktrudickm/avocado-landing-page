@@ -80,6 +80,18 @@
     color: #ffffff;
 }
 
+.prefinery-name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.prefinery-name-container * {
+    margin: 0px !important;
+}
+
 /* .formContainer {
     margin: 10px;
 } */

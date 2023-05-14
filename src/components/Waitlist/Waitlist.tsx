@@ -10,7 +10,7 @@ const Waitlist = () => {
             <div className="waitlist-container">
                 <div className='subtitle-container'>
                     <h2 className='waitlist-title'>Join Our Pre-Launch Waitlist!</h2>
-                    <p className='waitlist-detail'>Get notified as soon as the Avocado Investing app is live in the app store.</p>
+                    <p className='waitlist-detail'>Get early access and compete for a chance to win a surprise care package from the Avocado team!</p>
                 </div>
                 <>
                     {/* Begin Prefinery Signup Form */}
@@ -65,6 +65,24 @@ const Waitlist = () => {
                                 type="hidden"
                                 defaultValue=""
                             />
+
+                            <div className="prefinery-name-container">
+                                <TextField
+                                    autoComplete="first_name"
+                                    type="text"
+                                    name="user[profile][first_name]"
+                                    id="pfy_user_profile_first_name"
+                                    label="First Name *"
+                                />
+
+                                <TextField
+                                    autoComplete="last_name"
+                                    type="text"
+                                    name="user[profile][last_name]"
+                                    id="pfy_user_profile_last_name"
+                                    label="Last Name *"
+                                />
+                            </div>
 
                             <TextField
                                 autoComplete="email"
