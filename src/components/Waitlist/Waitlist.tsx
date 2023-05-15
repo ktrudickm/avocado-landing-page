@@ -9,8 +9,8 @@ const Waitlist = () => {
         <div id="waitlist" className='full-container'>
             <div className="waitlist-container">
                 <div className='subtitle-container'>
-                    <h2 className='waitlist-title'>Join Our Pre-Launch Waitlist!</h2>
-                    <p className='waitlist-detail'>Get early access and compete for a chance to win a surprise care package from the Avocado team!</p>
+                    <h2 className='waitlist-title'>Join Our Waitlist!</h2>
+                    <p className='waitlist-detail'>Get early access to the app and compete for a chance to win a care package from the team!</p>
                 </div>
                 <>
                     {/* Begin Prefinery Signup Form */}
