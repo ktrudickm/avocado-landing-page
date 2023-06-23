@@ -20,7 +20,7 @@ const Preview = () => {
             </div>
             <div className="text-container">
                 <h1 className="main-text">Social Investing, Reimagined.</h1>
-                <div className="detail-container">
+                {/* <div className="detail-container">
                     <div className="detail">
                         <h1>Q1 '23</h1>
                         <h2>Beta Launch</h2>
@@ -33,7 +33,7 @@ const Preview = () => {
                         <h1>300+</h1>
                         <h2>Waitlist</h2>
                     </div>
-                </div>
+                </div> */}
             </div>
 
         </div>

@@ -7,7 +7,7 @@ const Jumbotron= () => {
         <div className="jumbotron-container">
             <div className="jumbotron">
                 <Logo className='jumbo-logo'/>
-                <h3 className='description'>Say hello to Avocado - a social investing network empowering individuals to seize opportunities, join communities, and achieve economic growth.</h3>
+                <h3 className='description'>Say hello to Avocado - a social financial network where you can invest & place bets, join communities, and learn from experts.</h3>
             </div>
         </div>
     )
