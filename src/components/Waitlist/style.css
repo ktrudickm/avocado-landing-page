@@ -53,7 +53,19 @@
 }
 
 .joinBtn {
+    border-radius: 10px;
+    background: #13D84B;
+    white-space: nowrap;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
     width: 20ch;
+    /* width: 20ch;
     border-radius: 4px;
     background: #13D74B;
     white-space: nowrap;
@@ -67,7 +79,7 @@
     text-align: center;
     height: 100%;
     padding: 10px 22px;
-    margin-top: 20px;
+    margin-top: 20px; */
 }
 
 .textField {
@@ -76,7 +88,7 @@
 
 .joinBtn:hover {
     transition: all 0.2s ease-in-out;
-    background: #5524c967;
+    background: #5524c9;
     color: #ffffff;
 }
 

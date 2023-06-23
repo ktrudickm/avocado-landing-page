@@ -16,8 +16,8 @@
     justify-content:center;
     align-items: center;
     width: 100%;
-    height: 850px;
-    margin-top: -200px;
+    height: 750px;
+    margin-top: -100px;
     background: #000525;
     padding: 70px 30px;
     border-radius: 0px 0px 50px 50px;
@@ -34,13 +34,14 @@
     font-size: 24px;
     line-height: 28px;
     padding: 10px 1px;
+    padding-bottom: 30px;
     width: 100%;
     color: white;
 }
 
-.JumboBtn {
-    border-radius: 50px;
-    background: #5524c9;
+.button {
+    border-radius: 10px;
+    background: #13D84B;
     white-space: nowrap;
     padding: 12px 24px;
     color: white;
@@ -50,15 +51,13 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
-    
-
 }
 
-.JumboBtn:hover {
+.button:hover {
     transition: all 0.2s ease-in-out;
-    background: #5524c941;
+    background: #5524c9;
     color: #ffffff;
+    
 }
 
 @media screen and (max-width: 960px){
@@ -82,6 +81,10 @@
 
     .jumbo-logo {
         width: 75%;
+    }
+
+    .button {
+        font-size: 16px;
     }
 
 

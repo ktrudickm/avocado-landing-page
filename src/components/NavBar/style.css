@@ -6,6 +6,10 @@
     z-index: 1000;
 }
 
+.waitlist {
+    color: #13D84B
+}
+
 .mobile-nav-menu {
     display: flex !important;
     flex-direction: column;
