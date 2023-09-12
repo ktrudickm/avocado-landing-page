@@ -1,20 +1,45 @@
 .mobile-nav-container {
+    padding-top:80px;
     height: 100%;
     width: 100%;
-    background: #000525;
+    background: white;
     position: fixed;
     z-index: 1000;
+    gap: 0;
 }
 
+ .text {
+    border-radius: 30px;
+    background: #13D84B;
+    white-space: nowrap;
+    padding: 12px 65px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+ }
+
 .waitlist {
-    color: #13D84B
+    color: white;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .mobile-nav-menu {
     display: flex !important;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     z-index: 1001;
     font-size: 1.5rem;
 }
@@ -24,7 +49,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
 
 .mobile-nav-menu li a {

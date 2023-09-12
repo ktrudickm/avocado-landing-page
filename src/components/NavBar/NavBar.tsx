@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
-import { ReactComponent as Logo } from './ICON.svg'
+import { ReactComponent as Logo } from './Full.svg'
+import { Link as LinkS } from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -24,22 +25,24 @@ const NavBar = () => {
             <Nav>
                 <NavbarContainer>
                     {/* <NavLogo to='home' smooth={true} offset={-40} duration={1000}>Avocado</NavLogo> */}
-                    <Logo style={{ marginTop: 15}}/>
+                    <Logo/>
                     <MobileIcon onClick={() => setOpen(!open)}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='about' smooth={true} offset={-40} duration={1000}>Our Story</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
-                            <NavLinks to='product' smooth={true} offset={-40} duration={1000}>Our Platform</NavLinks>
+                            <NavLinks to='product' smooth={true} offset={-40} duration={1000}>Our Product</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='team' smooth={true} offset={-40} duration={1000}>Our Team</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks className='waitlist' to='waitlist' smooth={true} offset={-40} duration={1000}>Join Waitlist</NavLinks>
+                            <LinkS className='waitlist' to='waitlist' smooth={true} offset={-40} duration={1000}>
+                                <div className='text'>Join Waitlist</div>
+                            </LinkS>
                         </NavItem>
                         {/* <NavItem>
                             <NavLinks to='contact' smooth={true} offset={-40} duration={1000}>Contact Us</NavLinks>
@@ -53,11 +56,11 @@ const NavBar = () => {
             {open &&
                 <div className="mobile-nav-container">
                     <NavMenu className="mobile-nav-menu">
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='about' smooth={true} offset={-80} duration={1000}><span>Our Story</span></NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
-                            <NavLinks onClick={handleMobileNavOnClick} to='product' smooth={true} offset={-80} duration={1000}><span>Our Platform</span></NavLinks>
+                            <NavLinks onClick={handleMobileNavOnClick} to='product' smooth={true} offset={-80} duration={1000}><span>Our Product</span></NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks onClick={handleMobileNavOnClick} to='team' smooth={true} offset={-80} duration={1000}><span>Our Team</span></NavLinks>

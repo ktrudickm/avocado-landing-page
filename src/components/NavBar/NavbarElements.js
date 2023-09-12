@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000525;
+    background: white;
     height: 80px;
     display: flex;
     margin-top: -80px;
@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
         transform: translate(-110%, 70%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: white;
+        color: black;
     }
 `
 
@@ -70,13 +70,15 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height:80px;
+    align-items: center;
 `
 
 export const NavLinks = styled(LinkS)`
-    color: white;
+    color: black;
     display: flex;
-    font-weight: 600;
+    font-weight: 300;
     align-items: center;
+    font-size: 15px;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
