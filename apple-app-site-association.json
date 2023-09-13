@@ -4,11 +4,7 @@
     "details": [
       {
         "appID": "C9448FQWQH.com.avocado.mobile",
-        "paths": [
-          "/postsDetail/*",
-          "/posts/*",
-          "/pitsdetails/*"
-        ]
+        "paths": ["/postsDetail/*", "/posts/*", "/pitsdetails/*"]
       }
     ]
   }
