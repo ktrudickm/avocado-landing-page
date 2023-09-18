@@ -15,15 +15,25 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans+Narrow&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Montserrat&family=PT+Sans+Narrow&display=swap"
-    rel="stylesheet"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Montserrat&family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
     />
 
-    <script>prefinery=window.prefinery||function(){(window.prefinery.q=window.prefinery.q||[]).push(arguments)};</script>
-    <script src="https://widget.prefinery.com/widget/v2/xzpklod6.js" defer></script>
+    <script>
+      prefinery =
+        window.prefinery ||
+        function () {
+          (window.prefinery.q = window.prefinery.q || []).push(arguments);
+        };
+    </script>
+    <script
+      src="https://widget.prefinery.com/widget/v2/xzpklod6.js"
+      defer
+    ></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -35,6 +45,26 @@
     -->
     <title>Avocado</title>
   </head>
+  <script>
+    // Check if the URL contains a deep link
+    const url = window.location.href;
+    if (url.includes("/postsDetail")) {
+      // Extract the postId from the URL
+      const params = new URLSearchParams(url.split("?")[1]);
+      const postId = params.get("postId");
+
+      // Redirect the user to the appropriate page in your app
+      window.location.href = `https://www.avocadoapp.co/postsDetail?postId=${postId}`;
+    }
+    if (url.includes("/pitsdetails")) {
+      // Extract the postId from the URL
+      const params = new URLSearchParams(url.split("?")[1]);
+      const pitId = params.get("pitId");
+
+      // Redirect the user to the appropriate page in your app
+      window.location.href = `https://www.avocadoapp.co/pitsdetails?pitId=${pitId}`;
+    }
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
