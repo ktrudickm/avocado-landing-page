@@ -11,5 +11,15 @@
         ]
       }
     ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "C9448FQWQH.com.avocado.mobile"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "C9448FQWQH.com.avocado.mobile"
+    ]
   }
 }
